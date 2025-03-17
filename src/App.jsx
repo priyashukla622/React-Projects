@@ -1,14 +1,13 @@
-// For Counter App
 // import React from "react";
-// import Counter from "./Counters"
+// import counter from "./Counter"
 // function App(){
-//   return(
-//     <div className="App">
-//         <Counter/>
-
-//     </div>
-//   )
+//   return (
+//     <>
+//       {/* <Counter/>  // ✅ Correct JSX comment */}
+//     </>
+//   );
 // }
+
 // export default App;
 
 
