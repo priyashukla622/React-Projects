@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useRef, useState } from "react";
 import "./form.css";
-function DisplayForm() {
+function CreateForm() {
   const navigate = useNavigate();
   const nameRef = useRef();
   const emailRef = useRef();
@@ -33,4 +33,4 @@ function DisplayForm() {
     </div>
   );
 }
-export default DisplayForm;
+export default CreateForm;

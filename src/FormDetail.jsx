@@ -1,35 +1,3 @@
-// import { useLocation } from "react-router-dom";
-// import "./formDetail.css"
-// function FormData() {
-//   const location = useLocation();
-//   const { state } = location; 
-//   if (!state) {
-//     return <div>No data passed</div>;
-//   }
-//   const { fromState, fromRef } = state;
-//   return (
-//     <div className="detail">
-//       <h2>Form Data</h2>
-//       <h3>Data from useState:</h3>
-//       <p>Name: {fromState.name}</p>
-//       <p>Email: {fromState.email}</p>
-//       <p>Phone: {fromState.phone}</p>
-//       <p>Message:{fromState.message}</p>
-     
-
-//       <h3>Data from useRef:</h3>
-//       <p>Name: {fromRef.name}</p>
-//       <p>Email: {fromRef.email}</p>
-//       <p>Phone: {fromRef.phone}</p>
-//       <p>Message:{fromRef.message}</p>
-//     </div>
-//   );
-// }
-// export default FormData;
-
-
-
-
 import { useLocation,useNavigate } from "react-router-dom";
 import "./formDetail.css";
 function FormDetail(){
