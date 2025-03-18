@@ -38,19 +38,38 @@
 
 
 // ############for form @@@@@@@@@@@@
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Form from "./CreteForm";
+// import FormData from "./FormDetail";
+// function App(){
+//   return(
+//   <Router>
+//     <Routes>
+//       <Route path="/" element={<Form/>}/>
+//       <Route path="/data" element={<FormData/>}/>
+//     </Routes>
+//   </Router>
+//   )
+// }
+// export default App;
+
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Form from "./CreteForm";
-import FormData from "./FormDetail";
-function App(){
-  return(
-  <Router>
-    <Routes>
-      <Route path="/" element={<Form/>}/>
-      <Route path="/data" element={<FormData/>}/>
-    </Routes>
-  </Router>
-  )
+import CreateForm from "./CreteForm";
+import FormDetail from "./FormDetail";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<CreateForm/>} />
+        <Route path="/data" element={<FormDetail/>} />
+      </Routes>
+    </Router>
+  );
 }
+
 export default App;
 
 
